@@ -1,0 +1,8 @@
+<?php
+$store_id = Mage::app()->getStore()->getId();
+
+$js = Mage::getStoreConfig('andrewmarquesenviou/configuracoes/codigo_js');
+if($js != ''){
+    echo $js;
+}
+?>

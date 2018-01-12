@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AndrewMarques_Enviou>
+            <active>true</active>
+            <codePool>community</codePool>
+        </AndrewMarques_Enviou>
+    </modules>
+</config>

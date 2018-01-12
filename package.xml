@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Enviou</name>
+    <version>1.0.0</version>
+    <stability>beta</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Integra com a Enviou.</summary>
+    <description>Integra com a Enviou.</description>
+    <notes>Em testes.</notes>
+    <authors><author><name>Andrew Marques</name><user>andrewmarques</user><email>andrew@foxsea.com.br</email></author></authors>
+    <date>2018-01-11</date>
+    <time>18:12:10</time>
+    <contents><target name="magecommunity"><dir name="AndrewMarques"><dir name="Enviou"><file name=".DS_Store" hash="63cccf408ab8f942faccd60ba3566687"/><dir name="Block"><file name="Button.php" hash="27cf5649d3925167f1a461655a411901"/><file name="Disabled.php" hash="61fb81329bd4d0d940c53e8f183156fc"/></dir><dir name="Helper"><file name="Data.php" hash="7695332631a7bedd3471bcc306a766c0"/></dir><dir name="Model"><file name="Observer.php" hash="4063e6fb9ecfe6071f37791f7f2b319b"/></dir><dir name="controllers"><file name=".DS_Store" hash="fb56c2d861f06c2b1ba6f1ea064cf998"/><file name="AdminhtmlController.php" hash="39094449a474313992f648c5b09fcd03"/><file name="CustomersController.php" hash="19fc8a701928a557ff53c34b01051f3c"/><file name="NewsletterController.php" hash="2d96373767c8369817f87b6831076550"/><file name="ProductsController.php" hash="d481ac82990d63131ff68c8baa9cf053"/><file name="ProductsControllerXml.php" hash="6e6f75297db774225c5bf2b7e6773b6d"/></dir><dir name="etc"><file name="adminhtml.xml" hash="b67758a4e746694e8a92c458762c34f0"/><file name="config.xml" hash="3e9bffe35ec41f0cf471754bd5907401"/><file name="system.xml" hash="66f3e765fbd781992a844533f6d6807b"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="AndrewMarques_Enviou.xml" hash="d1011c9cefd9d1284c02f4b39d076991"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="andrewmarques"><dir name="enviou"><file name="enviou.xml" hash="9ef5084f6705f1664f7551a433ca8de0"/></dir></dir></dir><dir name="template"><dir name="andrewmarques"><dir name="enviou"><file name="js.phtml" hash="5c78759d5a36ecd4b4516d65d1377aaa"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.4.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

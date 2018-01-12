@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<config>
+    <menu>
+        <andrewmarquesenviou translate="title" module="andrewmarquesenviou">
+            <title>Enviou</title>
+            <sort_order>500</sort_order>
+            <children>
+                <email translate="title" module="andrewmarquesenviou">
+                    <title>E-mail Marketing</title>
+                    <sort_order>1</sort_order>
+                    <action>enviou/adminhtml/email</action>
+                </email>
+                <carrinho translate="title" module="andrewmarquesenviou">
+                    <title>Recuperação de carrinhos</title>
+                    <sort_order>2</sort_order>
+                    <action>enviou/adminhtml/carrinho</action>
+                </carrinho>
+                <configuracoes translate="title" module="andrewmarquesenviou">
+                    <title>Configurações</title>
+                    <sort_order>3</sort_order>
+                    <action>adminhtml/system_config/edit/section/andrewmarquesenviou</action>
+                </configuracoes>
+            </children>
+        </andrewmarquesenviou>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <andrewmarquesenviou translate="label" module="andrewmarquesenviou">
+                                        <title>AndrewMarques - Enviou</title>
+                                        <sort_order>1</sort_order>
+                                    </andrewmarquesenviou>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                 </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<config>
+
+    <modules>
+        <AndrewMarques_Enviou>
+            <version>1.0.0</version>
+        </AndrewMarques_Enviou>
+    </modules>
+
+    <global>
+        <blocks>
+            <andrewmarquesenviou>
+                <class>AndrewMarques_Enviou_Block</class>
+            </andrewmarquesenviou>
+        </blocks>
+        <models>
+            <andrewmarquesenviou>
+                <class>AndrewMarques_Enviou_Model</class>
+            </andrewmarquesenviou>
+        </models>
+        <helpers>
+            <andrewmarquesenviou>
+                <class>AndrewMarques_Enviou_Helper</class>
+            </andrewmarquesenviou>
+        </helpers>
+
+        <events>
+            <admin_system_config_changed_section_andrewmarquesenviou>
+                <observers>
+                    <andrewmarquesenviou>
+                        <type>singleton</type>
+                        <class>AndrewMarques_Enviou_Model_Observer</class>
+                        <method>updateConfig</method>
+                    </andrewmarquesenviou>
+                </observers>
+            </admin_system_config_changed_section_andrewmarquesenviou>
+        </events>
+    </global>
+
+    <admin>
+        <routers>
+            <enviou>
+                <use>admin</use>
+                <args>
+                    <module>AndrewMarques_Enviou</module>
+                    <frontName>enviou</frontName>
+                </args>
+            </enviou>
+        </routers>
+    </admin>
+
+    <frontend>
+        <layout>
+            <updates>
+                <andrewmarquesenviou>
+                    <file>andrewmarques/enviou/enviou.xml</file>
+                </andrewmarquesenviou>
+            </updates>
+        </layout>
+
+        <routers>
+            <enviou>
+                <use>standard</use>
+                <args>
+                    <module>AndrewMarques_Enviou</module>
+                    <frontName>enviou</frontName>
+                </args>
+            </enviou>
+        </routers>
+    </frontend>
+
+</config>
