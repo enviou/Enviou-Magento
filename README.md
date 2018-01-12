@@ -18,7 +18,7 @@ Após confirmar o login e senha, clique em escolher arquivo   Choose File no pas
 
 # 3. Configuração do plugin
 
-Para configurar o plugin, clique em:   Sistema > Configuração > Encontre a Sessão Enviou e clique em Configurações conforme imagem abaixo:
+Para configurar o plugin, clique em:   Sistema > Configuração > Encontre a Sessão Enviou e clique em Configurações
 
 Preencha seus dados e clique em instalar e pronto! Sua loja á esta integrada ao Enviou e você pode utilizar os recursos:
 
