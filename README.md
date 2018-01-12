@@ -4,7 +4,7 @@ Esse documento demonstra como instalar o plugin Enviou em uma loja com a platafo
 
 Devido a Magento ser livre para customização, aconselhamos instalar primeiro em um ambiente de homologação para validação e somente após instalar na loja em produção. Importante antes da instalação na loja em produção, fazer um backup. 
 
-# 1 Acesso o ADMIN de sua loja Magento
+# 1. Acesso o ADMIN de sua loja Magento
 
 O endereço padrão para acessar é:   http://url-da-sua-loja.com.br/admin/
 
